@@ -28,7 +28,7 @@ module Program =
 
         task {
             let friend = grainFactory.GetGrain<IHelloGrain>("abc")
-            let! response = friend.SayHello("Good morning!")
+            let! response = friend.Receive(Greeting "Good morning!")
             printfn "\n\n%s\n\n" response
         } |> Async.AwaitTask |> ignore
 
