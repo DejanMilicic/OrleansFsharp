@@ -10,7 +10,7 @@ This is a baseline example of using Orleans with F#.
 
 ## F# fixes
 
-At the moment, four fixes needed. In this project, all of them are marked with 'FSHARPFIX'
+At the moment, four fixes are needed. All of them are marked with 'FSHARPFIX' comment in this project.
 
 1. Host project either needs to be in [C#](https://github.com/DejanMilicic/orleans-fsharp-dotnet9), or you need to create a [C# class](./CodeGen/Class1.cs) with the following attribute
 
