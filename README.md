@@ -28,7 +28,7 @@ At the moment, there are 4 fixes needed. In this project, they are all marked wi
 	do()
    ```
 
-4. For each F# type, you need an [explicit attribute](./Grains/HelloGrain#L9-L12) that will instruct Orleans to generate code for it
+4. For each F# type, you need an [explicit attribute](./Grains/HelloGrain.fs#L9-L12) that will instruct Orleans to generate code for it
 
    ```fsharp
 	[<GenerateSerializer>]
