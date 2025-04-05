@@ -24,7 +24,7 @@ At the moment, there are 4 fixes needed. In this project, they are all marked wi
 
    ```fsharp
 	open System.Runtime.CompilerServices
-	[<assembly: InternalsVisibleTo("C#_PROJECT_WITH_CODEGEN_")>]
+	[<assembly: InternalsVisibleTo("C#_PROJECT_WITH_CODEGEN_CLASS")>]
 	do()
    ```
 
