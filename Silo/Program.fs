@@ -28,8 +28,10 @@ module Program =
 
         task {
             let friend = grainFactory.GetGrain<IHelloGrain>("abc")
-            let! response = friend.Receive(Greeting "Good morning!")
-            printfn "\n\n%s\n\n" response
+            let! response1 = friend.Receive(Greeting "Good morning!")
+            printfn "\n%s" response1
+            let! response2 = friend.Receive(Number 2)
+            printfn "\n%s" response2
         } |> Async.AwaitTask |> ignore
 
         // Keep the host running until Ctrl+C is pressed

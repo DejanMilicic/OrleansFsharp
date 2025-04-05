@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="OrleansFsharpFix.fs" />
     <Compile Include="HelloGrain.fs" />
   </ItemGroup>
 

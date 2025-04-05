@@ -4,14 +4,8 @@ open System.Threading.Tasks
 open Orleans
 
 // FSHARPFIX
-// following three lines are necessary to make the Orleans codegen work
-// "CodeGen" is the name of the C# codegen project
-open System.Runtime.CompilerServices
-[<assembly: InternalsVisibleTo("CodeGen")>]
-do()
-
-// FSHARPFIX
 // the following line is necessary to make the Orleans codegen work
+// it will instruct the Orleans codegen to generate the code for the message
 [<GenerateSerializer>]
 type GreeterMessage =
     | Greeting of string
@@ -30,4 +24,4 @@ type HelloGrain() =
             | Greeting greeting ->
                 Task.FromResult($"Greeter received greeting: *{greeting}*")
             | Number number ->
-                Task.FromResult($"Greeter received number: *{number}*")
+                Task.FromResult($"Coffee number: *{number}*")

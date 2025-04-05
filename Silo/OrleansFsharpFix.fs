@@ -1,8 +1,10 @@
-﻿///assembly attributes needed for Orleans to work in F#
+﻿// FSHARPFIX
+// assembly attributes needed for Orleans to work in F#
 module OrleansFsharpFix
-    
+    // CodeGen is the name of the C# codegen project
     [<assembly: Orleans.ApplicationPartAttribute("CodeGen")>]
-
+    
+    // other assemblies matching NuGet packages
     [<assembly: Orleans.ApplicationPartAttribute("Orleans.Core.Abstractions")>]
     [<assembly: Orleans.ApplicationPartAttribute("Orleans.Serialization")>]
     [<assembly: Orleans.ApplicationPartAttribute("Orleans.Core")>]
@@ -16,4 +18,4 @@ module OrleansFsharpFix
     [<assembly: Orleans.ApplicationPartAttribute("Orleans.Streaming")>]
     [<assembly: Orleans.ApplicationPartAttribute("Orleans.Serialization.Abstractions")>]
     [<assembly: Orleans.ApplicationPartAttribute("Orleans.Serialization")>]
-    ()   
+    ()
