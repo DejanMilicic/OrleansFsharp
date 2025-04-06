@@ -13,8 +13,6 @@ module OrleansFsharpFix
     [<assembly: Orleans.ApplicationPartAttribute("Orleans.Reminders")>]
     [<assembly: Orleans.ApplicationPartAttribute("OrleansDashboard.Core")>]
     [<assembly: Orleans.ApplicationPartAttribute("OrleansDashboard")>]
-    [<assembly: Orleans.ApplicationPartAttribute("Orleans.Clustering.Redis")>]
-    [<assembly: Orleans.ApplicationPartAttribute("Orleans.Persistence.Redis")>]
     [<assembly: Orleans.ApplicationPartAttribute("Orleans.Streaming")>]
     [<assembly: Orleans.ApplicationPartAttribute("Orleans.Serialization.Abstractions")>]
     [<assembly: Orleans.ApplicationPartAttribute("Orleans.Serialization")>]
