@@ -1,4 +1,4 @@
-namespace OKSilo
+namespace Silo
 
 open Microsoft.Extensions.Hosting
 open Microsoft.Extensions.DependencyInjection
