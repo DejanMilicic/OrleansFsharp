@@ -10,10 +10,8 @@ module OrleansFsharpFix
     [<assembly: Orleans.ApplicationPartAttribute("Orleans.Core")>]
     [<assembly: Orleans.ApplicationPartAttribute("Orleans.Persistence.Memory")>]
     [<assembly: Orleans.ApplicationPartAttribute("Orleans.Runtime")>]
-    [<assembly: Orleans.ApplicationPartAttribute("Orleans.Reminders")>]
     [<assembly: Orleans.ApplicationPartAttribute("OrleansDashboard.Core")>]
     [<assembly: Orleans.ApplicationPartAttribute("OrleansDashboard")>]
-    [<assembly: Orleans.ApplicationPartAttribute("Orleans.Streaming")>]
     [<assembly: Orleans.ApplicationPartAttribute("Orleans.Serialization.Abstractions")>]
     [<assembly: Orleans.ApplicationPartAttribute("Orleans.Serialization")>]
     ()
