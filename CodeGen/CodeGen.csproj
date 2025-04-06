@@ -11,7 +11,6 @@
   </PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Orleans.Reminders" Version="9.1.2" />
 		<PackageReference Include="Microsoft.Orleans.Sdk" Version="9.1.2" />
 		<PackageReference Include="Microsoft.Orleans.Serialization.FSharp" Version="9.1.2" />
 	</ItemGroup>
